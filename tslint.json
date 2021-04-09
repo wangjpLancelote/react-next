@@ -1,0 +1,22 @@
+{
+    "defaultSeverity": "warning",
+    "extends": ["tslint:recommended"],
+    "rules": {
+        "quotemark": [true, "single"],
+        "indent": [true, "spaces", 2],
+        "interface-name": false,
+        "ordered-imports": false,
+        "object-literal-sort-keys": false,
+        "no-consecutive-blank-lines": false,
+        "no-shadowed-variable": false /** 取消reuire禁止检查 */,
+        "no-var-requires": false,
+        "semicolon": false,
+        "whitespace": false /** 禁止尾部分号检查 */,
+        "trailing-comma": false /** 禁止尾部空格检测 */,
+        "no-trailing-whitespace": false,
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+        "no-console": [true, "log", "error"] /** 允许一个文件有多个class */,
+        "max-classes-per-file": false,
+        "@typescript-eslint/no-unused-vars": 0
+    }
+}

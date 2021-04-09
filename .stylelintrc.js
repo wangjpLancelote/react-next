@@ -1,5 +1,7 @@
-const fabric = require('@umijs/fabric');
+/** @format */
+
+// const fabric = require('@umijs/fabric');
 
 module.exports = {
-  ...fabric.stylelint,
-};
+    // ...fabric.stylelint,
+}
